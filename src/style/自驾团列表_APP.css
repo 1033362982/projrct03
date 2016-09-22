@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  width: 100%;
+}
+header .top {
+  height: 0.88rem;
+  width: 100%;
+  background-color: #50bbdb;
+}
+header .top .jiantou {
+  float: left;
+  margin-top: 0.23rem;
+  width: 0.42rem;
+  height: 0.42rem;
+  margin-left: 0.31rem;
+}
+header .top span {
+  float: left;
+  margin-left: 1.93rem;
+  color: white;
+  line-height: 0.88rem;
+  text-align: center;
+  font-size: 0.36rem;
+}
+header .ibox {
+  position: relative;
+}
+header .ibox .titian {
+  width: 100%;
+  height: 3.57rem;
+}
+header .ibox .wbox {
+  height: 0.52rem;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 0.21rem;
+  left: 0;
+}
+header .ibox .wbox p {
+  color: white;
+  line-height: 0.52rem;
+  height: 0.52rem;
+  margin-left: 0.25rem;
+  font-size: 0.30rem;
+}
+header .bgcbox {
+  width: 100%;
+  height: 1.1rem;
+}
+header .bgcbox .lbox {
+  width: 5.24rem;
+  height: 0.80rem;
+  border-right: 1px solid #e5e5e5;
+  margin-left: 0.27rem;
+  margin-top: 0.1rem;
+  float: left;
+}
+header .bgcbox .lbox .tbox {
+  height: 0.35rem;
+}
+header .bgcbox .lbox .tbox p {
+  font-size: 0.30rem;
+}
+header .bgcbox .lbox .bbox {
+  height: 0.35rem;
+  margin-top: 0.1rem;
+}
+header .bgcbox .lbox .bbox p {
+  font-size: 0.28rem;
+  color: #f0851a;
+}
+header .bgcbox .lbox .bbox p span {
+  color: #e5e5e5;
+}
+header .bgcbox img {
+  margin-top: 0.25rem;
+  margin-left: 0.25rem;
+  float: left;
+  width: 0.33rem;
+  height: 0.33rem;
+}
+section {
+  width: 100%;
+}

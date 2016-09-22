@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.activee {
+  border-bottom: 1px solid #50bbdb;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  width: 100%;
+}
+header .top {
+  height: 0.88rem;
+  width: 100%;
+  background-color: #50bbdb;
+}
+header .top .jiantou {
+  float: left;
+  margin-top: 0.23rem;
+  width: 0.42rem;
+  height: 0.42rem;
+  margin-left: 0.31rem;
+}
+header .top span {
+  float: left;
+  margin-left: 1.60rem;
+  color: white;
+  line-height: 0.88rem;
+  text-align: center;
+  font-size: 0.36rem;
+}
+header .top .phone {
+  float: right;
+  margin-top: 0.23rem;
+  width: 0.38rem;
+  height: 0.46rem;
+  margin-right: 0.22rem;
+}
+header .bottom {
+  width: 100%;
+  height: 1.08rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+header .bottom .tt {
+  width: 6.2rem;
+  height: 0.42rem;
+}
+header .bottom .tt p {
+  font-size: 0.24rem;
+  margin-left: 0.1rem;
+  line-height: 0.42rem;
+}
+header .bottom .bb {
+  width: 6.2rem;
+  height: 0.4rem;
+  margin-top: 0.15rem;
+}
+header .bottom .bb p {
+  font-size: 0.24rem;
+  margin-left: 0.2rem;
+  line-height: 0.4rem;
+}
+section {
+  width: 100%;
+  height: 18.33rem;
+  background-color: #e5e5e5;
+  overflow: hidden;
+}
+section .one {
+  width: 6.05rem;
+  height: 4.3rem;
+  margin-top: 0.18rem;
+  margin-left: 0.16rem;
+  background-color: white;
+  border-radius: 0.07rem;
+}
+section .one .top {
+  height: 0.5rem;
+  width: 6.05rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+section .one .top .hbox {
+  height: 0.3rem;
+  margin-left: 0.14rem;
+  line-height: 0.3rem;
+  float: left;
+  margin-top: 0.12rem;
+  border-left: 0.04rem solid #50bbdb;
+}
+section .one .top .hbox h3 {
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+  float: left;
+  margin-left: 0.19rem;
+}
+section .one ul {
+  margin-left: 0.35rem;
+  float: left;
+}
+section .one ul li {
+  width: 4.8rem;
+  height: 0.4rem;
+  margin-top: 0.23rem;
+  font-size: 0.2rem;
+  line-height: 0.4rem;
+  list-style: none;
+}
+section .one ul li form {
+  list-style: none;
+  display: inline-block;
+  font-size: 0.16rem;
+}
+section .one ul li form .inputtt {
+  width: 0.18rem;
+  height: 0.18rem;
+  margin-bottom: 0.31rem;
+  width: 0.2rem;
+  height: 0.2rem;
+}
+section .one ul li form .inputt {
+  margin-left: 1.4rem;
+  width: 0.2rem;
+  height: 0.2rem;
+  margin-bottom: 0.31rem;
+}
+section .one ul li form span {
+  font-size: 0.18rem;
+}
+section .one ul li .suanfa {
+  width: 1.45rem;
+  height: 0.2rem;
+  display: inline-block;
+}
+section .one ul li .suanfa .sub {
+  width: 0.42rem;
+  height: 0.25rem;
+  background-color: white;
+  color: #50bbdb;
+  border: 1px solid #e5e5e5;
+  line-height: 0.25rem;
+  float: left;
+}
+section .one ul li .suanfa .num {
+  width: 0.42rem;
+  height: 0.25rem;
+  background-color: white;
+  color: #50bbdb;
+  border: 1px solid #e5e5e5;
+  line-height: 0.25rem;
+  float: left;
+  text-align: center;
+}
+section .one ul li .suanfa .add {
+  width: 0.42rem;
+  height: 0.25rem;
+  background-color: white;
+  color: #50bbdb;
+  border: 1px solid #e5e5e5;
+  line-height: 0.25rem;
+  float: left;
+}
+section .one ul .tli {
+  width: 4.8rem;
+}
+section .one .btn1 {
+  width: 0.77rem;
+  height: 0.35rem;
+  background-color: white;
+  color: #50bbdb;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.05rem;
+  float: right;
+}
+section .five {
+  width: 6.05rem;
+  height: 3.5rem;
+  margin-top: 0.18rem;
+  margin-left: 0.16rem;
+  background-color: white;
+  border-radius: 0.07rem;
+}
+section .five .top {
+  height: 0.5rem;
+  width: 6.05rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+section .five .top .list1 {
+  list-style: none;
+  float: left;
+  margin-left: 0.14rem;
+  margin-top: 0.12rem;
+  border-left: 0.04rem solid #50bbdb;
+  width: 0.15rem;
+  height: 0.25rem;
+}
+section .five .top .list2 {
+  list-style: none;
+  float: left;
+  font-weight: bold;
+  width: 1.17rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.24rem;
+}
+section .five .top .list2:hover {
+  border-bottom: 1px solid #50bbdb;
+}
+section .five .top .list3 {
+  list-style: none;
+  float: left;
+  font-weight: bold;
+  width: 1.17rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.24rem;
+  margin-left: 0.21rem;
+}
+section .five .top .list3:hover {
+  border-bottom: 1px solid #50bbdb;
+}
+section .five .bottom .container-c-list {
+  list-style: none;
+  margin-top: 0.28rem;
+  display: inline;
+}
+section .five .bottom h3 {
+  margin-left: 0.3rem;
+  margin-top: 0.2rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+}
+section .five .bottom ul {
+  display: none;
+}
+section .five .bottom ul li {
+  margin-left: 0.3rem;
+  height: 0.27rem;
+  margin-top: 0.25rem;
+  width: 5.48rem;
+  line-height: 0.27rem;
+  font-size: 0.18rem;
+}
+section .two {
+  width: 6.05rem;
+  height: 3.3rem;
+  margin-top: 0.18rem;
+  margin-left: 0.16rem;
+  background-color: white;
+  border-radius: 0.07rem;
+}
+section .two .top {
+  height: 0.5rem;
+  width: 6.05rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+section .two .top .hbox {
+  height: 0.3rem;
+  margin-left: 0.14rem;
+  line-height: 0.3rem;
+  float: left;
+  margin-top: 0.12rem;
+  border-left: 0.04rem solid #50bbdb;
+}
+section .two .top .hbox h3 {
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+  float: left;
+  margin-left: 0.19rem;
+}
+section .two ul {
+  margin-left: 0.35rem;
+  float: left;
+}
+section .two ul li {
+  width: 5.38rem;
+  height: 0.4rem;
+  margin-top: 0.23rem;
+  font-size: 0.2rem;
+  line-height: 0.4rem;
+  list-style: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+section .three {
+  width: 6.05rem;
+  height: 2.7rem;
+  margin-top: 0.18rem;
+  margin-left: 0.16rem;
+  background-color: white;
+  border-radius: 0.07rem;
+}
+section .three .top {
+  height: 0.5rem;
+  width: 6.05rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+section .three .top .hbox {
+  height: 0.3rem;
+  margin-left: 0.14rem;
+  line-height: 0.3rem;
+  float: left;
+  margin-top: 0.12rem;
+  border-left: 0.04rem solid #50bbdb;
+}
+section .three .top .hbox .h01 {
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+  float: left;
+  margin-left: 0.19rem;
+}
+section .three .top .hbox .h02 {
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+  float: right;
+  color: #50bbdb;
+  margin-left: 3.5rem;
+}
+section .three ul {
+  margin-left: 0.35rem;
+  float: left;
+}
+section .three ul li {
+  width: 5.38rem;
+  height: 0.5rem;
+  margin-top: 0.23rem;
+  font-size: 0.2rem;
+  line-height: 0.5rem;
+  list-style: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+section .three ul li img {
+  width: 0.27rem;
+  height: 0.3rem;
+  margin-top: 0.1rem;
+}
+section .three .jia {
+  margin-top: 0.2rem;
+  width: 0.35rem;
+  height: 0.36rem;
+  float: left;
+  margin-left: 2.85rem;
+}
+section .four {
+  width: 6.05rem;
+  height: 2.8rem;
+  margin-top: 0.18rem;
+  margin-left: 0.16rem;
+  background-color: white;
+  border-radius: 0.07rem;
+}
+section .four .top {
+  height: 0.5rem;
+  width: 6.05rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+section .four .top .hbox {
+  height: 0.3rem;
+  margin-left: 0.14rem;
+  line-height: 0.3rem;
+  float: left;
+  margin-top: 0.12rem;
+  border-left: 0.04rem solid #50bbdb;
+}
+section .four .top .hbox h3 {
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+  float: left;
+  margin-left: 0.19rem;
+}
+section .four .bigul {
+  margin-left: 0.35rem;
+  float: left;
+}
+section .four .bigul .bl1 {
+  width: 5.38rem;
+  height: 0.95rem;
+  list-style: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+section .four .bigul .bl1 .lu {
+  float: left;
+}
+section .four .bigul .bl1 .lu li {
+  margin-left: 0.15rem;
+  width: 3.2rem;
+  height: 0.25rem;
+  margin-top: 0.15rem;
+  font-size: 0.2rem;
+  line-height: 0.25rem;
+  list-style: none;
+}
+section .four .bigul .bl1 .ru .list1 {
+  width: 0.5rem;
+  height: 0.25rem;
+  margin-right: 0rem;
+  margin-top: 0.15rem;
+  font-size: 0.2rem;
+  line-height: 0.25rem;
+  list-style: none;
+  float: left;
+  margin-left: 1.51rem;
+}
+section .four .bigul .bl1 .ru .list2 {
+  width: 1.1rem;
+  height: 0.25rem;
+  margin-top: 0.15rem;
+  font-size: 0.2rem;
+  line-height: 0.25rem;
+  list-style: none;
+  float: right;
+}
+section .four .bigul .bl1 .ru .list2 p {
+  color: #f98d0d;
+  font-size: 0.2rem;
+}
+section .four .bigul .bl1 .ru .list2 p span {
+  color: #666666;
+  font-size: 0.2rem;
+}
+section .four .bigul .bl2 {
+  width: 5.38rem;
+  height: 0.95rem;
+  list-style: none;
+}
+section .four .bigul .bl2 .lu {
+  float: left;
+}
+section .four .bigul .bl2 .lu li {
+  margin-left: 0.15rem;
+  width: 3.2rem;
+  height: 0.25rem;
+  margin-top: 0.15rem;
+  font-size: 0.2rem;
+  line-height: 0.25rem;
+  list-style: none;
+}
+section .four .bigul .bl2 .ru .list1 {
+  width: 0.5rem;
+  height: 0.25rem;
+  margin-top: 0.15rem;
+  font-size: 0.2rem;
+  line-height: 0.25rem;
+  list-style: none;
+  float: left;
+  margin-left: 1.5rem;
+}
+section .four .bigul .bl2 .ru .list2 {
+  width: 1.1rem;
+  height: 0.25rem;
+  margin-top: 0.15rem;
+  font-size: 0.2rem;
+  line-height: 0.25rem;
+  list-style: none;
+  float: right;
+}
+section .four .bigul .bl2 .ru .list2 p {
+  color: #f98d0d;
+  font-size: 0.2rem;
+}
+section .four .bigul .bl2 .ru .list2 p span {
+  color: #666666;
+  font-size: 0.2rem;
+}
+section .agreen {
+  width: 100%;
+}
+section .agreen p {
+  line-height: 0.6rem;
+  font-size: 0.2rem;
+  margin-top: 0.24rem;
+  margin-left: 1.6rem;
+}
+footer {
+  width: 100%;
+  background-color: white;
+  height: 1rem;
+}
+footer .left {
+  width: 1.9rem;
+  height: 0.26rem;
+  margin-left: 0.18rem;
+  margin-top: 0.35rem;
+  float: left;
+}
+footer .left p {
+  font-size: 0.2rem;
+  line-height: 0.26rem;
+  text-align: center;
+  color: #f98d0d;
+}
+footer input {
+  float: left;
+  margin-top: 0.2rem;
+  margin-left: 1.7rem;
+  background-color: #50bbdb;
+  border: 1px solid #50bbdb;
+  border-radius: 0.07rem;
+  color: white;
+  font-size: 0.2rem;
+  width: 2.4rem;
+  height: 0.7rem;
+}

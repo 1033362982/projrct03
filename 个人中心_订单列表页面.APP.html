@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="src/style/个人中心_订单列表页面.APP.css">
+</head>
+<body>
+	<header>
+		<div class="top">
+			<img src="images/dayu.jpg" alt="">
+			<span>订单列表</span>
+		</div>
+		<div class="bottom">
+			<div class="left">
+				<div class="center">
+					全部分类<span class="spl2"></span>
+				</div>
+				
+			</div>
+			<div class="right">
+				<div class="center">
+					按时间排序<span class="spr2"></span>
+				</div>
+			</div>
+		</div>
+		<div class="model1">
+			<div class="layout close"></div>
+			<div class="content">
+				<ul>
+					<li>全部分类</li>
+					<li>待出行</li>
+					<li>待支付</li>
+					<li>待评价</li>
+					<li>已取消</li>
+				</ul>
+			
+			</div>
+		</div>
+		<div class="model2">
+			<div class="layout close"></div>
+			<div class="content">
+				<ul>
+					<li>按下单时间排序</li>
+					<li>按出行时间排序</li>
+					
+				</ul>
+			
+		</div>
+	</div>
+
+	</header>
+	<section>
+		<div class="same"></div>
+		<div class="content1">
+			<div class="top">
+				<div class="ttop">
+					<div class="dd">
+						<p>
+							订单号：7195351
+						</p>
+					</div>
+					<div class="s02">
+						<p >待出行</p>
+					</div>
+					<div class="r01">
+						<p>预订时间：2015-12-29 </p>
+					</div>
+				</div>
+				<div class="chunjie">
+					<p>[春节]<魅力湘西过大年>湘西年夜饭，北京直飞</p>
+				</div>
+				<div class="zijiayou">
+					<p>自驾游</p>
+				</div>
+				<div class="date">
+					<p>2016-02-07出发</p>
+				</div>
+				<div class="money">
+					<p>￥4580</p>
+				</div>
+			</div>
+			<div class="dai">
+				<p>待出行</p>
+			</div>
+			<select>
+				<option>取消</option>
+				<option>确认</option>
+			</select>	
+		</div>
+		<div class="same"></div>
+		<div class="content1">
+			<div class="top">
+				<div class="ttop">
+					<div class="dd">
+						<p>
+							订单号：7195351
+						</p>
+					</div>
+					<div class="s02">
+						<p >待支付</p>
+					</div>
+					<div class="r01">
+						<p>预订时间：2015-12-29 </p>
+					</div>
+				</div>
+				<div class="chunjie">
+					<p>[5月]<阿尔山童话世界冰雪温泉之旅>北京直飞....</p>
+				</div>
+				<div class="zijiayou">
+					<p>自驾游</p>
+				</div>
+				<div class="date">
+					<p>2016-05-27出发</p>
+				</div>
+				<div class="money">
+					<p>￥4580</p>
+				</div>
+			</div>
+			<div class="dai">
+				<p>待支付</p>
+			</div>
+			<select>
+				<option>付款</option>
+				<option>取消</option>
+			</select>	
+		</div>
+		<div class="same"></div>
+		<div class="content1">
+			<div class="top">
+				<div class="ttop">
+					<div class="dd">
+						<p>
+							订单号：7195351
+						</p>
+					</div>
+					<div class="s02">
+						<p >待评价</p>
+					</div>
+					<div class="r01">
+						<p>预订时间：2015-12-29   12:04:00</p>
+					</div>
+				</div>
+				<div class="chunjie">
+					<p>[4月]<海南海岛环驾8日自驾之旅>海口直飞....</p>
+				</div>
+				<div class="zijiayou">
+					<p>自驾游</p>
+				</div>
+				<div class="date">
+					<p>2016-04-07出发</p>
+				</div>
+				<div class="money">
+					<p>￥4580</p>
+				</div>
+			</div>
+			<div class="dai">
+				<p>待评价</p>
+			</div>
+			<select>
+				<option>点评</option>
+				<option>取消</option>
+			</select>	
+		</div>
+		<div class="same"></div>
+		<div class="content1">
+			<div class="top">
+				<div class="ttop">
+					<div class="dd">
+						<p>
+							订单号：7195351
+						</p>
+					</div>
+					<div class="s02">
+						<p >已取消</p>
+					</div>
+					<div class="r01">
+						<p>预订时间：2015-12-29   12:04:00</p>
+					</div>
+				</div>
+				<div class="chunjie">
+					<p>[5月]<食在广东粤菜美食6日自驾>北京直飞....</p>
+				</div>
+				<div class="zijiayou">
+					<p>自驾游</p>
+				</div>
+				<div class="date">
+					<p>2016-05-07出发</p>
+				</div>
+				<div class="money">
+					<p>￥4580</p>
+				</div>
+			</div>
+			<div class="dai">
+				<p>已取消</p>
+			</div>
+			
+			<input type="button" value="查看">
+			
+			
+		</div>
+	</section>
+	<script src="src/script/fontsizeset.js"></script>
+	<script src="src/script/sea.js"></script>
+	<script>
+		seajs.use("jquery",function(){
+			$(".spl2").click(function(){
+				$(".model1").fadeToggle(300);
+			})
+			$(".spr2").click(function(){
+				$(".model2").fadeToggle(300);
+			})
+			
+			})
+	</script>
+</body>
+</html>
